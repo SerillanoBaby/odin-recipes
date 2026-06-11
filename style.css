@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-image: url(images/Wallpaper\ whatsapp\ backgrounds\ white\ 49\ Ideas.jpg);
+}
+.title{
+    background-image: url(images/pexels-yaroslav-shuraev-8851929.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card1{
+    background-position: bottom center;
+    background-color: #ffffff99;
+    text-align: center;
+    width: 70%;
+    padding: 30%;
+
+}
+h1{
+    font-family: Garamond, Times, serif;
+    font-size: 5rem;
+}
+p{
+    padding: 10px 11px;
+}
+.recipe-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    min-height: 3%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.6s cubic-bezier(0.25,1,0.5,1);
+    padding: 20px
+}
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 10px 20px rgb(0,0,0,0.2);
+}
+.heart{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: white;
+}
+#card1{
+    background-color: lightpink;
+}
+#card2{
+    background-color: lightsalmon;
+}
+#card3{
+    background-color: lightgreen;
+}
+.card img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;     
+    align-self: center;      
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.card h3,
+.card p {
+    padding: 0 15px;
+}
+
+.card p {
+    flex-grow: 1;
+}
+
+.card button {
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    background-color: beige;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background-color: lightcyan;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+footer a{
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
